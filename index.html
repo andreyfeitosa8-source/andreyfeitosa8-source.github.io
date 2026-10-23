@@ -1,0 +1,455 @@
+<!doctype html>
+<html lang="pt-BR" data-theme="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Andrey Medeiros — Desenvolvedor de Sistemas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;800&family=JetBrains+Mono:wght@400;600&display=swap"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <meta name="description" content="Portfólio de Andrey Medeiros, desenvolvedor de sistemas em formação: projetos, habilidades e currículo." />
+    <meta name="theme-color" content="#0b1120" />
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta property="og:title" content="Andrey Medeiros — Desenvolvedor de Sistemas" />
+    <meta property="og:description" content="Projetos, habilidades e currículo de um desenvolvedor de sistemas em formação." />
+    <meta name="twitter:card" content="summary" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav" aria-label="Principal">
+        <a class="logo" href="#inicio" aria-label="Início">A<span>M</span></a>
+
+        <ul class="menu">
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#habilidades">Habilidades</a></li>
+          <li><a href="#curriculo">Currículo</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+
+        <div class="tools">
+          <div role="group" aria-label="Idioma">
+            <button class="lang" data-lang="pt" aria-label="Português" aria-pressed="true">
+              <svg viewBox="0 0 24 16" aria-hidden="true">
+                <rect width="24" height="16" fill="#009c3b" />
+                <path d="M12 2l9 6-9 6-9-6z" fill="#ffdf00" />
+                <circle cx="12" cy="8" r="3" fill="#002776" />
+              </svg>
+            </button>
+            <button class="lang" data-lang="es" aria-label="Español" aria-pressed="false">
+              <svg viewBox="0 0 24 16" aria-hidden="true">
+                <rect width="24" height="16" fill="#aa151b" />
+                <rect y="4" width="24" height="8" fill="#f1bf00" />
+              </svg>
+            </button>
+            <button class="lang" data-lang="en" aria-label="English" aria-pressed="false">
+              <svg viewBox="0 0 24 16" aria-hidden="true">
+                <rect width="24" height="16" fill="#fff" />
+                <path d="M0 1h24M0 5h24M0 9h24M0 13h24" stroke="#b22234" stroke-width="2" />
+                <rect width="11" height="9" fill="#3c3b6e" />
+              </svg>
+            </button>
+          </div>
+          <button class="theme" id="theme" aria-label="Alternar tema claro e escuro"></button>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <!-- ===== INÍCIO ===== -->
+      <section class="hero" id="inicio">
+        <div class="hero-text">
+          <p class="eyebrow">Olá, meu nome é</p>
+          <h1>Andrey <span>Medeiros</span></h1>
+          <p class="role">Desenvolvedor de Sistemas</p>
+          <p class="lead">
+            Transformo ideias em soluções digitais. Sou apaixonado por tecnologia, sempre em busca
+            de aprender, evoluir e construir projetos que geram valor.
+          </p>
+          <p class="quote">“Código hoje, grandes soluções amanhã.”</p>
+
+          <div class="actions">
+            <a class="btn" href="#projetos">Conheça meus projetos</a>
+            <a class="btn btn-ghost" href="#curriculo">Acessar currículo</a>
+          </div>
+
+          <ul class="social" aria-label="Redes profissionais">
+            <li>
+              <a href="#" data-link="linkedin" aria-label="LinkedIn">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9.5h4V21H3zM9.5 9.5h3.8v1.6h.05c.53-1 1.84-2 3.8-2 4 0 4.75 2.6 4.75 6V21h-4v-5.1c0-1.2 0-2.8-1.7-2.8s-2 1.3-2 2.7V21h-4z" />
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="#" data-link="github" aria-label="GitHub">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.52-1.33-1.28-1.69-1.28-1.69-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.19 1.76 1.19 1.03 1.76 2.7 1.25 3.35.96.1-.75.4-1.25.73-1.54-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.83 1.19 3.09 0 4.42-2.7 5.4-5.27 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5z" />
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="code" aria-hidden="true">
+          <div class="code-bar"><i></i><i></i><i></i><span>portfolio.js</span></div>
+<pre><code><span class="k">const</span> developer = {
+  <span class="p">name</span>: <span class="s">'Andrey Medeiros'</span>,
+  <span class="p">role</span>: <span class="s">'Desenvolvedor de Sistemas'</span>,
+  <span class="p">passion</span>: [<span class="s">'tecnologia'</span>, <span class="s">'projetos'</span>, <span class="s">'evolução'</span>],
+  <span class="p">goal</span>: <span class="s">'construir grandes soluções'</span>
+};
+
+console.log(<span class="s">'Vamos nessa!'</span>);</code></pre>
+        </div>
+
+        <ul class="stats">
+          <li><strong>3</strong><span>Projetos em destaque</span></li>
+          <li><strong>4</strong><span>Formações e cursos</span></li>
+          <li><strong>5</strong><span>Tecnologias na lista</span></li>
+        </ul>
+      </section>
+      <!-- ===== SOBRE ===== -->
+      <section class="section" id="sobre">
+        <p class="eyebrow">Quem eu sou</p>
+        <h2>Sobre mim</h2>
+
+        <div class="prose">
+          <p>
+            Sou desenvolvedor de sistemas em formação, apaixonado por tecnologia e por tudo que
+            envolve o desenvolvimento web. Estou constantemente aprendendo, criando projetos e
+            buscando novas oportunidades para evoluir na área de TI.
+          </p>
+          <p>
+            Tenho interesse em desenvolvimento de sistemas, lógica de programação, tecnologias
+            modernas e em como a tecnologia pode resolver problemas reais e melhorar a vida das
+            pessoas.
+          </p>
+        </div>
+
+        <ul class="facts">
+          <li class="card">
+            <h3>Estudos</h3>
+            <p>ADS · UMC (2º semestre)</p>
+          </li>
+          <li class="card">
+            <h3>Foco</h3>
+            <p>Desenvolvimento Full Stack</p>
+          </li>
+          <li class="card">
+            <h3>Objetivo</h3>
+            <p>Conquistar minha primeira oportunidade em TI</p>
+          </li>
+        </ul>
+
+        <p class="callout">Aprender é o primeiro passo para construir o futuro que eu quero.</p>
+      </section>
+
+      <!-- ===== PROJETOS ===== -->
+      <section class="section" id="projetos">
+        <h2>Meus projetos</h2>
+        <p class="muted">
+          Projetos desenvolvidos com foco em resolver problemas reais e aplicar meus conhecimentos.
+        </p>
+
+        <div class="filters" role="group" aria-label="Filtrar projetos">
+          <button class="chip" data-filter="todos" aria-pressed="true">Todos</button>
+          <button class="chip" data-filter="concluido" aria-pressed="false">Concluídos</button>
+          <button class="chip" data-filter="andamento" aria-pressed="false">Em desenvolvimento</button>
+        </div>
+
+        <div class="projects">
+          <!-- Projeto 1 -->
+          <article class="card project" data-status="concluido">
+            <div class="thumb" role="img" aria-label="Prévia ilustrativa. Substitua por uma captura real do sistema."></div>
+            <div class="project-head">
+              <h3>Sistema de Gestão Financeira</h3>
+              <span class="status status-done">Concluído</span>
+            </div>
+            <p>
+              Organização e acompanhamento financeiro, com controle de receitas, despesas,
+              categorias e gráficos.
+            </p>
+            <p class="problem"><strong>Problema que resolve:</strong> saber para onde o dinheiro vai e qual é o saldo real.</p>
+            <ul class="bullets">
+              <li>Cadastro de receitas e despesas</li>
+              <li>Controle de saldo</li>
+              <li>Categorias financeiras</li>
+              <li>Gráficos e indicadores</li>
+              <li>Histórico de movimentações</li>
+            </ul>
+            <ul class="tags" aria-label="Tecnologias">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+            </ul>
+            <div class="actions">
+              <span class="btn is-off" aria-disabled="true">Ver demonstração · em breve</span>
+              <span class="btn btn-ghost is-off" aria-disabled="true">Ver código · em breve</span>
+            </div>
+          </article>
+
+          <!-- Projeto 2 -->
+          <article class="card project" data-status="andamento">
+            <div class="thumb" role="img" aria-label="Prévia ilustrativa. Substitua por uma captura real do sistema."></div>
+            <div class="project-head">
+              <h3>Sistema de Agendamento e Gestão</h3>
+              <span class="status">Em desenvolvimento</span>
+            </div>
+            <p>
+              Agendamento e gerenciamento de serviços, com painel administrativo e indicadores de
+              desempenho.
+            </p>
+            <p class="problem"><strong>Problema que resolve:</strong> conflitos de horário e falta de visão do desempenho dos serviços.</p>
+            <ul class="bullets">
+              <li>Cadastro e visualização de agendamentos</li>
+              <li>Controle de horários e serviços</li>
+              <li>Painel administrativo</li>
+              <li>Indicadores de desempenho</li>
+              <li>Interface responsiva e acessível</li>
+            </ul>
+            <ul class="tags" aria-label="Tecnologias">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+            </ul>
+            <div class="actions">
+              <span class="btn is-off" aria-disabled="true">Ver demonstração · em breve</span>
+              <span class="btn btn-ghost is-off" aria-disabled="true">Ver código · em breve</span>
+            </div>
+          </article>
+
+          <!-- Projeto 3 -->
+          <article class="card project" data-status="andamento">
+            <div class="thumb" role="img" aria-label="Prévia ilustrativa. Substitua por uma captura real do sistema."></div>
+            <div class="project-head">
+              <h3>Sistema de Gestão de Dados</h3>
+              <span class="status">Em desenvolvimento</span>
+            </div>
+            <p>
+              Organização, consulta e análise de informações, com busca, filtros e painel de
+              indicadores.
+            </p>
+            <p class="problem"><strong>Problema que resolve:</strong> informações espalhadas, difíceis de buscar e validar.</p>
+            <ul class="bullets">
+              <li>Cadastro, edição, consulta e exclusão</li>
+              <li>Busca e filtros</li>
+              <li>Painel de indicadores</li>
+              <li>Validação de formulários</li>
+              <li>Arquitetura para integração com backend</li>
+            </ul>
+            <ul class="tags" aria-label="Tecnologias">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>TypeScript</li>
+              <li>Node.js</li>
+            </ul>
+            <div class="actions">
+              <span class="btn is-off" aria-disabled="true">Ver demonstração · em breve</span>
+              <span class="btn btn-ghost is-off" aria-disabled="true">Ver código · em breve</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- ===== HABILIDADES E EVOLUÇÃO ===== -->
+      <section class="section" id="habilidades">
+        <h2>Habilidades técnicas</h2>
+        <p class="muted">
+          Tecnologias que estou aprendendo e colocando em prática nos meus projetos.
+        </p>
+
+        <div class="skills">
+          <article class="card">
+            <h3>Frontend</h3>
+            <ul class="checks">
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>JavaScript</li>
+              <li>TypeScript</li>
+            </ul>
+            <span class="badge">Em prática</span>
+          </article>
+
+          <article class="card">
+            <h3>Backend</h3>
+            <ul class="checks">
+              <li>Node.js</li>
+              <li>APIs REST</li>
+            </ul>
+            <span class="badge badge-study">Em estudo</span>
+          </article>
+
+          <article class="card">
+            <h3>Ferramentas</h3>
+            <ul class="checks">
+              <li>Git</li>
+              <li>GitHub</li>
+              <li>Visual Studio Code</li>
+              <li>Responsividade</li>
+              <li>Lógica de programação</li>
+              <li>Depuração e resolução de problemas</li>
+            </ul>
+            <span class="badge">Em prática</span>
+          </article>
+        </div>
+
+        <h3 class="sub">Evolução</h3>
+        <p class="muted">Minha jornada de aprendizado e crescimento.</p>
+        <ol class="timeline">
+          <li>
+            <strong>ADS</strong>
+            <span>UMC · 2º semestre</span>
+          </li>
+          <li>
+            <strong>Lógica de Programação</strong>
+            <span>Udemy</span>
+          </li>
+          <li>
+            <strong>Banco de Dados</strong>
+            <span>Curso em Vídeo · em andamento</span>
+          </li>
+          <li>
+            <strong>Inglês Básico</strong>
+            <span>Em andamento</span>
+          </li>
+        </ol>
+      </section>
+      <!-- ===== CURRÍCULO ===== -->
+      <section class="section" id="curriculo">
+        <h2>Currículo</h2>
+        <p class="muted">
+          Confira meu currículo completo, com informações sobre minha formação, cursos e
+          habilidades.
+        </p>
+
+        <div class="card cv">
+          <svg class="cv-icon" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M7 3h7l5 5v13H7z" />
+            <path d="M14 3v5h5M10 13h6M10 17h6" />
+          </svg>
+          <div>
+            <h3>Meu currículo</h3>
+            <p class="muted">Baixe ou visualize meu currículo em PDF.</p>
+            <div class="actions">
+              <a class="btn" data-link="resume" download>Baixar currículo em PDF</a>
+              <a class="btn btn-ghost" data-link="resume" target="_blank" rel="noopener">Visualizar</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== ÁREA DO RECRUTADOR ===== -->
+      <section class="section" id="recrutador">
+        <h2>Área do Recrutador</h2>
+        <p class="muted">Informações rápidas e organizadas para facilitar sua análise.</p>
+
+        <ul class="rec-list">
+          <li><a href="#sobre">Apresentação profissional</a></li>
+          <li><a href="#habilidades">Formação acadêmica e cursos</a></li>
+          <li><a href="#habilidades">Competências técnicas</a></li>
+          <li><a href="#projetos">Projetos em destaque</a></li>
+          <li><a href="#curriculo">Currículo em PDF</a></li>
+        </ul>
+
+        <ul class="rec-stats" id="rec-stats" aria-label="Resumo em números"></ul>
+
+        <div class="actions">
+          <a class="btn" data-link="linkedin">LinkedIn</a>
+          <a class="btn btn-ghost" data-link="github">GitHub</a>
+          <a class="btn btn-ghost" data-link="email">E-mail</a>
+        </div>
+      </section>
+
+      <!-- ===== TERMINAL INTERATIVO ===== -->
+      <section class="section" id="terminal">
+        <h2>Terminal interativo</h2>
+        <p class="muted">Digite um comando para conhecer um pouco mais sobre mim.</p>
+
+        <div class="term-wrap">
+          <div class="term">
+            <div class="term-bar"><i></i><i></i><i></i><span>andrey@portfolio</span></div>
+            <div id="term-out" class="term-out" role="log" aria-live="polite" aria-label="Saída do terminal" tabindex="0"></div>
+            <form id="term-form" class="term-form" autocomplete="off">
+              <span aria-hidden="true">$</span>
+              <input id="term-in" aria-label="Digite um comando" spellcheck="false" />
+            </form>
+          </div>
+
+          <div class="cmds" role="group" aria-label="Comandos prontos">
+            <button type="button" data-cmd="help">help</button>
+            <button type="button" data-cmd="about">about</button>
+            <button type="button" data-cmd="projects">projects</button>
+            <button type="button" data-cmd="skills">skills</button>
+            <button type="button" data-cmd="contact">contact</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== CONTATO ===== -->
+      <section class="section" id="contato">
+        <h2>Entre em contato</h2>
+        <p class="muted">
+          Estou aberto a novas oportunidades, conexões e parcerias. Vamos conversar!
+        </p>
+
+        <div class="contact">
+          <div>
+            <div class="actions">
+              <a class="btn" data-link="linkedin">LinkedIn</a>
+              <a class="btn btn-ghost" data-link="github">GitHub</a>
+              <a class="btn btn-ghost" data-link="email">E-mail</a>
+            </div>
+
+            <h3>Projetos</h3>
+            <ul class="repo-list">
+              <li><a data-link="repo1">Sistema de Gestão Financeira</a></li>
+              <li><a data-link="repo2">Sistema de Agendamento e Gestão</a></li>
+              <li><a data-link="repo3">Sistema de Gestão de Dados</a></li>
+            </ul>
+          </div>
+
+          <form id="contact-form" class="card form" novalidate>
+            <label for="f-name">Nome</label>
+            <input id="f-name" name="name" autocomplete="name" placeholder="Seu nome" aria-describedby="err-name" />
+            <p class="field-error" id="err-name"></p>
+
+            <label for="f-email">E-mail</label>
+            <input id="f-email" name="email" type="email" autocomplete="email" placeholder="seu@email.com" aria-describedby="err-email" />
+            <p class="field-error" id="err-email"></p>
+
+            <label for="f-message">Mensagem</label>
+            <textarea id="f-message" name="message" rows="5" placeholder="Digite sua mensagem..." aria-describedby="err-message"></textarea>
+            <p class="field-error" id="err-message"></p>
+
+            <button class="btn" type="submit">Enviar mensagem</button>
+            <p class="form-status" id="form-status" role="status"></p>
+          </form>
+        </div>
+      </section>
+
+    </main>
+    <footer class="footer">
+      <div class="footer-inner">
+        <p class="copy">© <span id="year"></span> Andrey Medeiros. <span>Todos os direitos reservados.</span></p>
+        <ul class="foot-links">
+          <li><a data-link="linkedin">LinkedIn</a></li>
+          <li><a data-link="github">GitHub</a></li>
+        </ul>
+        <a class="btn btn-ghost" href="#recrutador">Área do Recrutador</a>
+      </div>
+    </footer>
+
+    <script src="assets/js/config.js"></script>
+    <script src="assets/js/i18n.js"></script>
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>
